@@ -1,0 +1,73 @@
+body {
+  font-family: "Comic Sans";
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 70px;
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
+img {
+  width: 150px;
+}
+h1 {
+  font-size: 40px;
+  margin: 3px 10px;
+}
+p {
+  font-size: 20px;
+}
+.list {
+  display: flex;
+  background-color: lightsalmon;
+  line-height: 40px;
+  list-style: none;
+  margin: 0;
+}
+li {
+  text-align: center;
+  width: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "montserrat black";
+  cursor: pointer;
+}
+a:hover {
+  font-size: 120%;
+}
+.total-top {
+  display: flex;
+  text-align: center;
+  margin: 0 15px;
+}
+.icon {
+  height: 200px;
+  width: 150px;
+}
+.top:hover {
+  outline-width: 0.1;
+  outline-color: black;
+  outline-style: solid;
+  transform: scale(1.1);
+  transform-origin: 0 0;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+}
